@@ -90,7 +90,7 @@ RUN apt-get update && apt-get install -y \
 
 Build the `Dockerfile` using the `docker build` command within the same directory. Substitute `NAME` in the following example with the name of the image to be created:
 
-    docker build --tag=“Build-Essential:Dockerfile” /path/to/file .
+    docker build --tag=“build-essential:Dockerfile” /path/to/file .
 
 To build three images using the same Dockerfile, give each image a new name. In this example, `webdev1`, `webdev2`, `webdev3`:
 
